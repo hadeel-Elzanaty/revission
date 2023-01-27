@@ -1,0 +1,442 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-image: url(../revision/images/banner-bg.png);
+    background-size: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .dropList{
+
+  line-height: 45px;
+  font-size: 24px;
+}
+
+.navbar .dropList li{
+    list-style: none;
+}
+.navbar .dropList li a{
+   text-decoration: none;
+   color: white;
+}
+.navbar .dropList li a input{
+font-size: 25px;
+outline: none;
+background-color: transparent;
+border: none;
+color: white;}
+
+.appDis{
+    display: none;
+}
+.navbar .barDiv i {
+
+    color: beige;
+
+}
+/*header*/
+.header {
+  text-align: center;
+  
+}
+.header h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.header p{
+    font-size: 25px;
+}
+.header .fourDivs {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 70px auto;
+
+}
+
+.header .fourDivs .first .backImg1 {
+    background-image: url(../revision/images/img-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 700px;
+    text-align: center;
+    color: white;
+    padding: 450px 10px 20px;
+    box-sizing: border-box;
+}
+.header .fourDivs .second .backImg2 {
+    background-image: url(../revision/images/img-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 600px;
+    text-align: center;
+    color: white;
+    padding: 350px 18px 20px;
+    box-sizing: border-box;
+}
+.header .fourDivs .third .backImg3 {
+    background-image: url(../revision/images/img-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding: 250px 18px 20px;
+    box-sizing: border-box;
+}
+.header .fourDivs .forth .backImg4 {
+    background-image: url(../revision/images/img-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 170px 18px 20px;
+    box-sizing: border-box;
+}
+.numDiv {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: relative;
+    border: 2px solid brown;
+
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.numDiv h5 {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.backImg p {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.fourDivs  .playLnk {
+    background-color: black;
+    border-radius: 30px;
+    border: 3px solid brown;
+    text-align: center;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fourDivs  .playLnk a {
+    text-decoration: none;
+    color: white;
+}
+.fourDivs  .playLnk:hover{
+    background-color: brown;
+    
+   
+}
+/*steps*/
+.steps{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto 100px;
+    background-color: black;
+    color: white;
+    padding: 70px;
+    box-sizing: border-box;
+
+}
+.steps h1{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.steps p{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+.steps .photosDivs{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+.steps .photosDivs .photo {
+ font-size: 30px;
+}
+.steps .photosDivs .photo div{
+    border: 2px solid white;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+  padding-top: 100px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+  border-radius: 30px;
+    position: relative;
+}
+.steps .photosDivs .photo div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    transform: translate(-50%,-50%);
+        }
+.steps  .playLnk {
+    background-color: black;
+    border-radius: 40px;
+    border: 4px solid brown;
+    text-align: center;
+    margin: 60px auto;
+    width: 10%;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.steps .playLnk a {
+    text-decoration: none;
+    color: white;
+}
+.steps  .playLnk:hover{
+    background-color: brown;
+    
+   
+}
+/*footer*/
+.footer{
+    background-color:rgb(40, 40, 40);
+    color: white;
+   box-sizing: border-box;
+    padding: 70px 0px 30px;
+    width: 100%;
+}
+.footer form{
+    width: 65%;
+ margin: auto;
+
+}
+
+.footer form input[type="email"]{
+background-color: transparent;
+outline: none;
+border: none;
+color: white;
+font-size: 25px;
+width: 88%;
+
+}
+.footer form input[type="submit"]{
+    background-color: transparent;
+outline: none;
+border: none;
+color: white;
+font-size: 25px;
+cursor: pointer;
+}
+form hr{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footer .socialIcons{
+    text-align: center;
+   margin-bottom: 40px;
+}
+.footer .contactInfo{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    width: 80%;
+    margin:10px auto 50px;
+    
+
+}
+.footer .contactInfo div img{
+    float: left;
+    margin-right: 20px;
+}
+.footer .contactInfo div a{
+    float: left;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 35px;
+
+}
+
+.footer #lastHr{
+    width: 10%;
+  margin: auto;
+
+}
+.footer h6{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+@media (max-width: 1400px) {
+    .header .fourDivs {
+     flex-wrap: wrap;
+display: block;
+        width: 90%;
+        margin: 70px auto;
+    
+    }
+    .header .fourDivs .first .backImg1 {
+        background-image: url(../revision/images/img-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 500px;
+        text-align: center;
+        color: white;
+        padding: 250px 18px 20px;
+        box-sizing: border-box;
+    }
+    .header .fourDivs .second .backImg2 {
+        background-image: url(../revision/images/img-3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 500px;
+        text-align: center;
+        color: white;
+        padding: 250px 18px 20px;
+        box-sizing: border-box;
+    }
+    .header .fourDivs .third .backImg3 {
+        background-image: url(../revision/images/img-4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 500px;
+        text-align: center;
+        color: white;
+        padding: 250px 18px 20px;
+        box-sizing: border-box;
+    }
+    .header .fourDivs .forth .backImg4 {
+        background-image: url(../revision/images/img-5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 500px;
+        text-align: center;
+        color: white;
+        padding: 250px 18px 20px;
+        box-sizing: border-box;
+    }
+    /*steps*/
+    .steps{
+        text-align: center;
+        width: 100%;
+        margin: 0px auto 100px;
+        background-color: black;
+        color: white;
+        padding: 70px;
+    
+    }
+    .steps h1{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    .steps p{
+        font-size: 22px;
+     
+    }
+    .steps .photosDivs{
+
+ flex-wrap: wrap;
+
+        width: 90%;
+    }
+    .steps .photosDivs .photo {
+     font-size: 30px;
+     margin: auto;
+    }
+    .steps .photosDivs .photo div{
+        margin-top: 30px;
+        width: 550px;
+        height: 350px;
+        
+        position: relative;
+    }
+  
+    .steps  .playLnk {
+        
+        width: 20%;
+        padding: 10px 20px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    /*footer*/
+.footer{
+    background-color:rgb(40, 40, 40);
+    color: white;
+   box-sizing: border-box;
+    padding: 70px 0px 30px;
+    width: 100%;
+}
+.footer form{
+    width: 65%;
+ margin: auto;
+
+}
+
+.footer form input[type="email"]{
+font-size: 20px;
+width: 68%;
+
+}
+.footer form input[type="submit"]{
+font-size: 20px;
+
+}
+
+
+.footer .contactInfo div a{
+    font-size: 20px;
+
+}
+
+.footer #lastHr{
+    width: 20%;
+
+}
+.footer h6{
+    font-size: 20px;
+    margin-bottom: 20px
+}
+ 
+  
+  }
